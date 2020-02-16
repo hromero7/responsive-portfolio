@@ -204,7 +204,7 @@ a:hover {
 
 /* Media Queries */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 640px) {
 
    #name {
        width: 100%; 
@@ -227,8 +227,11 @@ a:hover {
        bottom: -110%;
        left: -15%;   
        background-color: white; 
+       width: 100%; 
 
    }
+
+   
 
    #main {
        width: 90%; 
@@ -263,4 +266,75 @@ a:hover {
       font-size: 80%;
   }
 }
-    
+
+@media screen and (max-width: 768px) {
+    #main {
+        width: 90%; 
+    }
+ 
+ 
+   #main-contact {
+       width: 95%; 
+       margin-bottom: 15%;
+   }
+ 
+   #main-portfolio {
+       width: 95%; 
+ 
+   }
+
+   .grid-container {
+    margin: 0;
+}
+
+.grid-item {
+    margin: 0; 
+}
+
+.images {
+    width: 95%; 
+}
+
+.caption {
+    width: 92%; 
+    font-size: 80%;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+    #main {
+        width: 90%; 
+    }
+ 
+ 
+   #main-contact {
+       width: 95%; 
+       margin-bottom: 15%;
+   }
+ 
+   #main-portfolio {
+       width: 95%; 
+ 
+   }
+
+   .grid-container {
+    margin: 0;
+}
+
+.grid-item {
+    margin: 0; 
+}
+
+.images {
+    width: 95%; 
+}
+
+.caption {
+    width: 92%; 
+    font-size: 80%;
+}
+
+
+
+}
