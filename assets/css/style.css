@@ -221,31 +221,38 @@ a:hover {
    }
 
    #links {
-      
-       height: 35%; 
-       position: absolute;
-       bottom: -110%;
-       left: -15%;   
+       display: none; 
+
+   }
+
+   #navbar {
+       margin-top: 3.5%; 
        background-color: white; 
        width: 100%; 
-
+       border-bottom: 1px solid #ccc; 
+       padding: 20px; 
+       text-align: center; 
+       position: relative;
    }
 
    
 
    #main {
        width: 90%; 
+       margin-bottom: 15%; 
+       margin-top: 0; 
    }
 
 
   #main-contact {
       width: 95%; 
       margin-bottom: 15%;
+      margin-top: 0; 
   }
 
   #main-portfolio {
       width: 95%; 
-      margin-top: 15%;
+      margin-top: 0; 
 
   }
 
@@ -267,9 +274,23 @@ a:hover {
   }
 }
 
+@media screen and (min-width: 641px) {
+    #navbar {
+        display: none; 
+    }
+}
+
 @media screen and (max-width: 768px) {
+   
+
+    #links {
+        position: absolute;
+        right: -10%; 
+    }
+
     #main {
         width: 90%; 
+        margin-bottom: 15%; 
     }
  
  
@@ -303,8 +324,10 @@ a:hover {
 }
 
 @media screen and (max-width: 980px) {
+
     #main {
         width: 90%; 
+        margin-bottom: 15%; 
     }
  
  
